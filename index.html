@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create User</h1>
+        <form action="/createUser" method="GET">
+            <label for="username">User: </label>
+            <input type="text" name="username" id="username">
+            <label for="fav-book">Favourite Book:</label>
+            <input type="text" name="favBook" id="fav-book">
+
+            <button type="submit">Submit</button>
+        </form>
+        <form action="/countBooks" method="GET">
+            <button id='count' type="submit">Count</button>
+        </form>
+
+      <!--  <a href="/showPopularBook" id='show'>Favourite Book</a>-->
+    </div>
+</body>
+</html>
